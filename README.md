@@ -17,6 +17,6 @@ Add the following to `~/.zimrc`
 
 ```sh
 # some configuration above
-zmodule omares/zim-zoxide
+zmodule kucho/zim-zoxide
 # some configuration below
 ```

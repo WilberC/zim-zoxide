@@ -1,5 +1,5 @@
 if (( $+commands[zoxide] )); then
-    $commands[zoxide] init zsh >| ${0:a:h}/zoxide.zsh
+    $commands[zoxide] init --cmd cd zsh >| ${0:a:h}/zoxide.zsh
     source ${0:a:h}/zoxide.zsh
 
     # adds custom CMD+G keybinding to interactively select cd directory
